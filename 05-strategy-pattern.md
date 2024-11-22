@@ -13,6 +13,9 @@ Encapsulate interchangeable behaviors and delegate them to specific strategy cla
 
 ## Example: Payment Processing
 
+![strategy pattern image](/images/strategy-pattern.png)
+
+
 ### Without Strategy Pattern
 ```java
 class PaymentProcessor {
@@ -24,3 +27,6 @@ class PaymentProcessor {
         }
     }
 }
+
+```
+[Next: Strategy exercise](./06-strategy-exercsise.md)
